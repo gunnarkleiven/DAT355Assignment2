@@ -6,6 +6,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="dateOfBirth" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="isProfessional" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="#//GenderEnum"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="League">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -31,5 +32,9 @@
   <eClassifiers xsi:type="ecore:EEnum" name="TournamentType">
     <eLiterals name="Pro"/>
     <eLiterals name="Amateur" value="1" literal="Amateur"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="GenderEnum">
+    <eLiterals name="Male"/>
+    <eLiterals name="Female" value="1"/>
   </eClassifiers>
 </ecore:EPackage>

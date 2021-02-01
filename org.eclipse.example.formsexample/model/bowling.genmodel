@@ -10,11 +10,16 @@
       <genEnumLiterals ecoreEnumLiteral="bowling.ecore#//TournamentType/Pro"/>
       <genEnumLiterals ecoreEnumLiteral="bowling.ecore#//TournamentType/Amateur"/>
     </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="bowling.ecore#//GenderEnum">
+      <genEnumLiterals ecoreEnumLiteral="bowling.ecore#//GenderEnum/Male"/>
+      <genEnumLiterals ecoreEnumLiteral="bowling.ecore#//GenderEnum/Female"/>
+    </genEnums>
     <genClasses ecoreClass="bowling.ecore#//Player">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//Player/name"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//Player/dateOfBirth"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//Player/height"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//Player/isProfessional"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//Player/gender"/>
     </genClasses>
     <genClasses ecoreClass="bowling.ecore#//League">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bowling.ecore#//League/name"/>
