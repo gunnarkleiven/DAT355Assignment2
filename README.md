@@ -1,1 +1,3 @@
-# DAT355Assignment2
+#DAT355Assignment2
+The second assignment in DAT355
+
